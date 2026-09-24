@@ -10,8 +10,8 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "dot",
-	Short: "A CLI to sync your dotfiles",
-	Long:  `A CLI to sync your dotfiles with git to the configured remote`,
+	Short: "A CLI to sync your dotfiles with git",
+	Long:  `A CLI to sync your dotfiles with git`,
 
 	// Run: func(cmd *cobra.Command, args []string) { },
 }
